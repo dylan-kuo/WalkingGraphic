@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorButtonNormal"
+    tools:context=".arrows">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        style="@android:style/Widget.Holo.Light.ImageButton"
+        android:layout_width="90sp"
+        android:layout_height="45sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:elevation="0dp"
+        android:onClick="goLeft"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/arrowleft"
+        android:contentDescription="@string/going_left" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        style="@android:style/Widget.Holo.Light.ImageButton"
+        android:layout_width="90sp"
+        android:layout_height="45sp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="19dp"
+        android:elevation="0dp"
+        android:onClick="goRight"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/arrowright"
+        android:contentDescription="@string/going_right" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/stop"
+        android:text="Stop"
+        android:onClick="onClick"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

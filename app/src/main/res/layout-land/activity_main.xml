@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:name="com.example.mayra.walking.Man"
+        android:id="@+id/fragment"
+        tools:layout="@layout/fragment_man"
+        android:layout_weight="0.76" />
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="27dp"
+        android:name="com.example.mayra.walking.arrows"
+        android:id="@+id/fragment2"
+        tools:layout="@layout/fragment_arrows"
+        android:layout_weight="0.23" />
+</LinearLayout>
