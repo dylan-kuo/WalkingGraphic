@@ -10,6 +10,3 @@ It is the project 1 for CIS282 in DTCC. In this project, you can make a cartoon 
 ![alt tag](https://github.com/tzupinkuo/WalkingGraphic/blob/master/demo1.JPG)
 ![alt tag](https://github.com/tzupinkuo/WalkingGraphic/blob/master/demo2.JPG)
 ![alt tag](https://github.com/tzupinkuo/WalkingGraphic/blob/master/demo3.JPG)
-
-
-
