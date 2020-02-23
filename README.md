@@ -1,6 +1,6 @@
-# WalkingGraphic
+# RunningMan, Android App
 COURSE: CIS282-Mobile-App-Development <br> 
-PROJECT: WalkingGraphic <br>
+PROJECT: RunningMan <br>
 
 
 
